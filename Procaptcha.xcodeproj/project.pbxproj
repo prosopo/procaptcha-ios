@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EA79EC2CA8299800FB90EF /* ProcaptchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA79EB2CA8299800FB90EF /* ProcaptchaApp.swift */; };
+		60EA79EE2CA8299800FB90EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA79ED2CA8299800FB90EF /* ContentView.swift */; };
+		60EA79F02CA8299C00FB90EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EA79EF2CA8299C00FB90EF /* Assets.xcassets */; };
+		60EA79F42CA8299C00FB90EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EA79F32CA8299C00FB90EF /* Preview Assets.xcassets */; };
+		60EA79FE2CA8299C00FB90EF /* ProcaptchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA79FD2CA8299C00FB90EF /* ProcaptchaTests.swift */; };
+		60EA7A082CA8299D00FB90EF /* ProcaptchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA7A072CA8299D00FB90EF /* ProcaptchaUITests.swift */; };
+		60EA7A0A2CA8299D00FB90EF /* ProcaptchaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA7A092CA8299D00FB90EF /* ProcaptchaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60EA79FA2CA8299C00FB90EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EA79E02CA8299800FB90EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EA79E72CA8299800FB90EF;
+			remoteInfo = Procaptcha;
+		};
+		60EA7A042CA8299C00FB90EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EA79E02CA8299800FB90EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EA79E72CA8299800FB90EF;
+			remoteInfo = Procaptcha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60EA79E82CA8299800FB90EF /* Procaptcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procaptcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EA79EB2CA8299800FB90EF /* ProcaptchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcaptchaApp.swift; sourceTree = "<group>"; };
+		60EA79ED2CA8299800FB90EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60EA79EF2CA8299C00FB90EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EA79F12CA8299C00FB90EF /* Procaptcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Procaptcha.entitlements; sourceTree = "<group>"; };
+		60EA79F32CA8299C00FB90EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60EA79F92CA8299C00FB90EF /* ProcaptchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcaptchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EA79FD2CA8299C00FB90EF /* ProcaptchaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcaptchaTests.swift; sourceTree = "<group>"; };
+		60EA7A032CA8299C00FB90EF /* ProcaptchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcaptchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EA7A072CA8299D00FB90EF /* ProcaptchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcaptchaUITests.swift; sourceTree = "<group>"; };
+		60EA7A092CA8299D00FB90EF /* ProcaptchaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcaptchaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EA79E52CA8299800FB90EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA79F62CA8299C00FB90EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA7A002CA8299C00FB90EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EA79DF2CA8299800FB90EF = {
+			isa = PBXGroup;
+			children = (
+				60EA79EA2CA8299800FB90EF /* Procaptcha */,
+				60EA79FC2CA8299C00FB90EF /* ProcaptchaTests */,
+				60EA7A062CA8299C00FB90EF /* ProcaptchaUITests */,
+				60EA79E92CA8299800FB90EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EA79E92CA8299800FB90EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EA79E82CA8299800FB90EF /* Procaptcha.app */,
+				60EA79F92CA8299C00FB90EF /* ProcaptchaTests.xctest */,
+				60EA7A032CA8299C00FB90EF /* ProcaptchaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EA79EA2CA8299800FB90EF /* Procaptcha */ = {
+			isa = PBXGroup;
+			children = (
+				60EA79EB2CA8299800FB90EF /* ProcaptchaApp.swift */,
+				60EA79ED2CA8299800FB90EF /* ContentView.swift */,
+				60EA79EF2CA8299C00FB90EF /* Assets.xcassets */,
+				60EA79F12CA8299C00FB90EF /* Procaptcha.entitlements */,
+				60EA79F22CA8299C00FB90EF /* Preview Content */,
+			);
+			path = Procaptcha;
+			sourceTree = "<group>";
+		};
+		60EA79F22CA8299C00FB90EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60EA79F32CA8299C00FB90EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60EA79FC2CA8299C00FB90EF /* ProcaptchaTests */ = {
+			isa = PBXGroup;
+			children = (
+				60EA79FD2CA8299C00FB90EF /* ProcaptchaTests.swift */,
+			);
+			path = ProcaptchaTests;
+			sourceTree = "<group>";
+		};
+		60EA7A062CA8299C00FB90EF /* ProcaptchaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60EA7A072CA8299D00FB90EF /* ProcaptchaUITests.swift */,
+				60EA7A092CA8299D00FB90EF /* ProcaptchaUITestsLaunchTests.swift */,
+			);
+			path = ProcaptchaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EA79E72CA8299800FB90EF /* Procaptcha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EA7A0D2CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "Procaptcha" */;
+			buildPhases = (
+				60EA79E42CA8299800FB90EF /* Sources */,
+				60EA79E52CA8299800FB90EF /* Frameworks */,
+				60EA79E62CA8299800FB90EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Procaptcha;
+			productName = Procaptcha;
+			productReference = 60EA79E82CA8299800FB90EF /* Procaptcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EA79F82CA8299C00FB90EF /* ProcaptchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EA7A102CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "ProcaptchaTests" */;
+			buildPhases = (
+				60EA79F52CA8299C00FB90EF /* Sources */,
+				60EA79F62CA8299C00FB90EF /* Frameworks */,
+				60EA79F72CA8299C00FB90EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EA79FB2CA8299C00FB90EF /* PBXTargetDependency */,
+			);
+			name = ProcaptchaTests;
+			productName = ProcaptchaTests;
+			productReference = 60EA79F92CA8299C00FB90EF /* ProcaptchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60EA7A022CA8299C00FB90EF /* ProcaptchaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EA7A132CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "ProcaptchaUITests" */;
+			buildPhases = (
+				60EA79FF2CA8299C00FB90EF /* Sources */,
+				60EA7A002CA8299C00FB90EF /* Frameworks */,
+				60EA7A012CA8299C00FB90EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EA7A052CA8299C00FB90EF /* PBXTargetDependency */,
+			);
+			name = ProcaptchaUITests;
+			productName = ProcaptchaUITests;
+			productReference = 60EA7A032CA8299C00FB90EF /* ProcaptchaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EA79E02CA8299800FB90EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					60EA79E72CA8299800FB90EF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					60EA79F82CA8299C00FB90EF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 60EA79E72CA8299800FB90EF;
+					};
+					60EA7A022CA8299C00FB90EF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 60EA79E72CA8299800FB90EF;
+					};
+				};
+			};
+			buildConfigurationList = 60EA79E32CA8299800FB90EF /* Build configuration list for PBXProject "Procaptcha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EA79DF2CA8299800FB90EF;
+			productRefGroup = 60EA79E92CA8299800FB90EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EA79E72CA8299800FB90EF /* Procaptcha */,
+				60EA79F82CA8299C00FB90EF /* ProcaptchaTests */,
+				60EA7A022CA8299C00FB90EF /* ProcaptchaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EA79E62CA8299800FB90EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA79F42CA8299C00FB90EF /* Preview Assets.xcassets in Resources */,
+				60EA79F02CA8299C00FB90EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA79F72CA8299C00FB90EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA7A012CA8299C00FB90EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EA79E42CA8299800FB90EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA79EE2CA8299800FB90EF /* ContentView.swift in Sources */,
+				60EA79EC2CA8299800FB90EF /* ProcaptchaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA79F52CA8299C00FB90EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA79FE2CA8299C00FB90EF /* ProcaptchaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EA79FF2CA8299C00FB90EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA7A082CA8299D00FB90EF /* ProcaptchaUITests.swift in Sources */,
+				60EA7A0A2CA8299D00FB90EF /* ProcaptchaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EA79FB2CA8299C00FB90EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EA79E72CA8299800FB90EF /* Procaptcha */;
+			targetProxy = 60EA79FA2CA8299C00FB90EF /* PBXContainerItemProxy */;
+		};
+		60EA7A052CA8299C00FB90EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EA79E72CA8299800FB90EF /* Procaptcha */;
+			targetProxy = 60EA7A042CA8299C00FB90EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60EA7A0B2CA8299D00FB90EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60EA7A0C2CA8299D00FB90EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		60EA7A0E2CA8299D00FB90EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Procaptcha/Procaptcha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Procaptcha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.Procaptcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60EA7A0F2CA8299D00FB90EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Procaptcha/Procaptcha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Procaptcha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.Procaptcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60EA7A112CA8299D00FB90EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.ProcaptchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Procaptcha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Procaptcha";
+			};
+			name = Debug;
+		};
+		60EA7A122CA8299D00FB90EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.ProcaptchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Procaptcha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Procaptcha";
+			};
+			name = Release;
+		};
+		60EA7A142CA8299D00FB90EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.ProcaptchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Procaptcha;
+			};
+			name = Debug;
+		};
+		60EA7A152CA8299D00FB90EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.prosopo.ProcaptchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Procaptcha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EA79E32CA8299800FB90EF /* Build configuration list for PBXProject "Procaptcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EA7A0B2CA8299D00FB90EF /* Debug */,
+				60EA7A0C2CA8299D00FB90EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EA7A0D2CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "Procaptcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EA7A0E2CA8299D00FB90EF /* Debug */,
+				60EA7A0F2CA8299D00FB90EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EA7A102CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "ProcaptchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EA7A112CA8299D00FB90EF /* Debug */,
+				60EA7A122CA8299D00FB90EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EA7A132CA8299D00FB90EF /* Build configuration list for PBXNativeTarget "ProcaptchaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EA7A142CA8299D00FB90EF /* Debug */,
+				60EA7A152CA8299D00FB90EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EA79E02CA8299800FB90EF /* Project object */;
+}
