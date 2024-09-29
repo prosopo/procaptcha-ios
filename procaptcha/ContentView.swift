@@ -72,7 +72,8 @@ struct WebView: UIViewRepresentable {
 struct ContentView: View {
     var body: some View {
         VStack {
-            WebView(url: URL(string: "https://prosopo.io")!)
+            WebView(url: URL(string: "https://www.printplanet.de/news/signup")!)
+            // WebView(url: URL(string: "https://prosopo.io")!)
                 .frame(height: 400)
             
             Image(systemName: "globe")
