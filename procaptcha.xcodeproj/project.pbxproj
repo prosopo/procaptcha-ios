@@ -15,8 +15,8 @@
 
 /* Begin PBXFileReference section */
 		6093CEA12CA96BB9006699D1 /* procaptcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = procaptcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6093CEA42CA96BB9006699D1 /* procaptchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = procaptchaApp.swift; sourceTree = "<group>"; };
-		6093CEA62CA96BB9006699D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6093CEA42CA96BB9006699D1 /* procaptchaApp.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = procaptchaApp.swift; path = procaptcha/procaptchaApp.swift; sourceTree = SOURCE_ROOT; };
+		6093CEA62CA96BB9006699D1 /* ContentView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ContentView.swift; path = procaptcha/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		6093CEA82CA96BBD006699D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6093CEAA2CA96BBD006699D1 /* procaptcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = procaptcha.entitlements; sourceTree = "<group>"; };
 		6093CEAC2CA96BBD006699D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
