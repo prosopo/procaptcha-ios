@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Procaptcha
+//  procaptcha
 //
-//  Created by George Oastler on 28/09/2024.
+//  Created by George Oastler on 29/09/2024.
 //
 
 import SwiftUI

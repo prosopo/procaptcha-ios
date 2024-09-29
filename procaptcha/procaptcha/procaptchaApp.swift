@@ -1,14 +1,14 @@
 //
-//  ProcaptchaApp.swift
-//  Procaptcha
+//  procaptchaApp.swift
+//  procaptcha
 //
-//  Created by George Oastler on 28/09/2024.
+//  Created by George Oastler on 29/09/2024.
 //
 
 import SwiftUI
 
 @main
-struct ProcaptchaApp: App {
+struct procaptchaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
