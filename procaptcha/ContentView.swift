@@ -8,6 +8,9 @@ struct WebView: UIViewRepresentable {
         let webView = WKWebView()
         let request = URLRequest(url: url)
         webView.load(request)
+        
+        
+        
         return webView
     }
     
@@ -19,7 +22,7 @@ struct WebView: UIViewRepresentable {
 struct ContentView: View {
     var body: some View {
         VStack {
-            WebView(url: URL(string: "https://www.apple.com")!)
+            WebView(url: URL(string: "https://prosopo.io")!)
                 .frame(height: 400)
             
             Image(systemName: "globe")
