@@ -9,7 +9,18 @@ struct WebView: UIViewRepresentable {
     }
 
     func makeUIView(context: Context) -> WKWebView {
-        let webView = WKWebView()
+        let webViewConfiguration = WKWebViewConfiguration()
+        webViewConfiguration.preferences.javaScriptEnabled = true
+        
+        // Create a user content controller to handle messages
+        let userContentController = WKUserContentController()
+        userContentController.add(context.coordinator, name: "consoleLog") // Register the consoleLog handler
+        
+        // Add the user content controller to the configuration
+        webViewConfiguration.userContentController = userContentController
+        
+        let webView = WKWebView(frame: .zero, configuration: webViewConfiguration)
+        webView.navigationDelegate = context.coordinator
         let request = URLRequest(url: url)
         webView.load(request)
         
