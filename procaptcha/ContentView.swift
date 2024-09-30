@@ -18,13 +18,24 @@ struct WebView: UIViewRepresentable {
 
         // Inject JavaScript to override console.log
         let scriptSource = """
-        window.console.log = (function(log) {
-            return function() {
-                var message = Array.from(arguments).join(' ');
-                log.apply(console, arguments);
+        (function() {
+            var oldLog = console.log;
+            var oldWarn = console.warn;
+            var oldError = console.error;
+            var oldInfo = console.info;
+            var oldDebug = console.debug;
+
+            function sendMessage(type, args) {
+                var message = '[' + type + '] ' + Array.from(args).join(' ');
                 window.webkit.messageHandlers.consoleLog.postMessage(message);
             }
-        })(console.log);
+
+            console.log = function() { sendMessage('LOG', arguments); oldLog.apply(console, arguments); };
+            console.warn = function() { sendMessage('WARN', arguments); oldWarn.apply(console, arguments); };
+            console.error = function() { sendMessage('ERROR', arguments); oldError.apply(console, arguments); };
+            console.info = function() { sendMessage('INFO', arguments); oldInfo.apply(console, arguments); };
+            console.debug = function() { sendMessage('DEBUG', arguments); oldDebug.apply(console, arguments); };
+        })();
         """
         
         let script = WKUserScript(source: scriptSource, injectionTime: .atDocumentStart, forMainFrameOnly: false)
