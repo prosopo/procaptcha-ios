@@ -75,23 +75,24 @@ struct ContentView: View {
     var body: some View {
         VStack {
             WebView(htmlString: """
-            <html>
-                <head>
-                    <title>Procaptcha Demo</title>
-                    <script type="module" src="https://js.prosopo.io/js/procaptcha.bundle.js" async defer></script>
-                </head>
-                <body>
-                    <form action="" method="POST">
-                        <input type="text" name="email" placeholder="Email" />
-                        <input type="password" name="password" placeholder="Password" />
-                        <div class="procaptcha" data-sitekey="5FWCbfR7pH9QiZqLgmm5Rw4QbFwyU5EaMqUV4G6xrvrTZDtC
+<html>
+<head>
+<title>Procaptcha</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="module" src="https://js.prosopo.io/js/procaptcha.bundle.js" async defer></script>
+</head>
+<body>
+<form action="" method="POST">
+<input type="text" name="email" placeholder="Email" />
+<input type="password" name="password" placeholder="Password" />
+<div class="procaptcha" data-sitekey="5FWCbfR7pH9QiZqLgmm5Rw4QbFwyU5EaMqUV4G6xrvrTZDtC
 "></div>
-                        <br />
-                        <input type="submit" value="Submit" />
-                    </form>
-                </body>
-            </html>
-                """)
+<br />
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+""")
             // WebView(url: URL(string: "https://prosopo.io")!)
                 .frame(height: 400)
             
