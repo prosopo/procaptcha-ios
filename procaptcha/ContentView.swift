@@ -46,6 +46,7 @@ struct WebView: UIViewRepresentable {
         
         let webView = WKWebView(frame: .zero, configuration: webViewConfiguration)
         webView.navigationDelegate = context.coordinator
+        webView.isInspectable = true
         
         // Load the provided HTML string
         webView.loadHTMLString(htmlString, baseURL: nil)
