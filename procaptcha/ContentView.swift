@@ -48,8 +48,9 @@ struct WebView: UIViewRepresentable {
         webView.navigationDelegate = context.coordinator
         webView.isInspectable = true
         
-        // Load the provided HTML string
-        webView.loadHTMLString(htmlString, baseURL: nil)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
+            webView.loadHTMLString(htmlString, baseURL: nil)
+        }
         
         return webView
     }
