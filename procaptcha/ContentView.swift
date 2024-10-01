@@ -87,6 +87,7 @@ struct WebView: UIViewRepresentable {
 struct ContentView: View {
     var body: some View {
         VStack {
+            Text("Demo Procaptcha:")
             WebView(htmlString: """
 <html>
 <head>
@@ -105,13 +106,6 @@ struct ContentView: View {
 </body>
 </html>
 """)
-            // WebView(url: URL(string: "https://prosopo.io")!)
-                .frame(height: 400)
-            
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
         }
         .padding()
     }
